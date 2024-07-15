@@ -21,10 +21,9 @@ const config = {
       keyframes: {
         big: {
           "0% ,100%": { transform: "scale(3, 3)" },
-          "20%": { transform: "rotate(45deg)" },
-          "40%": { transform: "scale(3, 3)" },
-          "60%": { transform: "rotate(-45deg)" },
-          "80%": { transform: "scale(3, 3)" },
+          "25%": { transform: "rotate(45deg)" },
+          "50%": { transform: "scale(3, 3)" },
+          "75%": { transform: "rotate(-45deg)" },
         },
       },
       animation: {

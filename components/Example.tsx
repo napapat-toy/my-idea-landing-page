@@ -1,5 +1,3 @@
-import React from "react";
-
 const ShadowExample = () => (
   <div className="w-full max-w-[360px] text-center">
     <h4 className="text-white text-2xl">Shadow</h4>
