@@ -32,16 +32,15 @@ const MobileNav = () => {
             <div className="divide-y divide-slate-300 divide-opacity-30">
               {navLinks.map(({ link, label }) => {
                 return (
-                  <SheetDescription key={label}>
+                  <Link
+                    key={label}
+                    href={link}
+                    className={` transition capitalize`}
+                  >
                     <SheetClose asChild>
-                      <Link
-                        href={link}
-                        className={`text-white text-2xl transition capitalize`}
-                      >
-                        {label}
-                      </Link>
+                      <SheetDescription>{label}</SheetDescription>
                     </SheetClose>
-                  </SheetDescription>
+                  </Link>
                 );
               })}
             </div>

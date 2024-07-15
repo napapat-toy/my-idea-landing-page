@@ -29,6 +29,9 @@ const config = {
       animation: {
         "big-show": "big 3s ease-in-out infinite",
       },
+      boxShadow: {
+        "full": "15px 15px 0 0 rgba(0, 0, 0, 0.3)",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

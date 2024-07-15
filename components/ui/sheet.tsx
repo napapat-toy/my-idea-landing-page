@@ -120,7 +120,7 @@ const SheetDescription = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <SheetPrimitive.Description
     ref={ref}
-    className={cn("py-2 hover:bg-yellow-500 hover:bg-opacity-30 text-sm text-muted-foreground", className)}
+    className={cn("py-2 hover:bg-yellow-500 hover:bg-opacity-30 text-white text-2xl", className)}
     {...props}
   />
 ))

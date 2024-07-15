@@ -40,11 +40,11 @@ const AnimationExample = () => (
 const Example = () => {
   return (
     <section
-      className="h-screen w-full flex flex-col items-center"
+      className="h-full md:h-screen w-full flex flex-col items-center"
       id="example"
     >
       <h2 className="text-white text-6xl mt-20">Example</h2>
-      <div className="max-w-7xl w-full flex flex-col md:flex-row justify-evenly gap-4 mt-16">
+      <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-evenly gap-12 md:gap-4 mt-16">
         <ShadowExample />
         <GlassExample />
         <AnimationExample />

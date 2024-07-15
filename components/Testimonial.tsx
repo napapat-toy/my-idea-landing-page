@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const UserCard = () => (
-  <div className="">
+  <div className="max-w-[300px] hover:shadow-full hover:rounded-lg transition">
     <Card>
       <CardHeader>
         <Avatar>
@@ -35,7 +35,7 @@ const Testimonial = () => {
       className="h-screen w-full flex items-center justify-center"
       id="testimonial"
     >
-      <div className="flex gap-4 max-w-7xl">
+      <div className="flex flex-col md:flex-row gap-8 max-w-7xl">
         <UserCard />
         <UserCard />
         <UserCard />
