@@ -1,12 +1,7 @@
-"use client";
-
 import { navLinks } from "@/lib/data";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  const pathname = usePathname();
-
   return (
     <div className="fixed z-50 bg-slate-900 w-full flex justify-between items-center">
       <h2 className="text-white text-3xl px-8 cursor-default ">My IDEA</h2>
