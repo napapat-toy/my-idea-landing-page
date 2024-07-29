@@ -1,15 +1,13 @@
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const UserCard = () => (
   <div className="max-w-[300px] hover:shadow-full hover:rounded-lg transition">
-    <Card>
+    <Card className="bg-emerald-100">
       <CardHeader>
         <Avatar>
           <AvatarImage src="https://github.com/shadcn.png" />
@@ -19,7 +17,7 @@ const UserCard = () => (
         <CardTitle>Mr.Smile</CardTitle>
       </CardHeader>
       <CardContent>
-        <p className="line-clamp-2">
+        <p className="text-base">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
           voluptatibus tenetur error magni voluptatem veniam sapiente maiores
           aliquid ex totam?
@@ -35,7 +33,7 @@ const Testimonial = () => {
       className="h-screen w-full flex items-center justify-center"
       id="testimonial"
     >
-      <div className="flex flex-col md:flex-row gap-8 max-w-7xl">
+      <div className="flex flex-col md:flex-row gap-12 max-w-7xl">
         <UserCard />
         <UserCard />
         <UserCard />

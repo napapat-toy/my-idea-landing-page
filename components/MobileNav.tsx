@@ -35,7 +35,7 @@ const MobileNav = () => {
                   <Link
                     key={label}
                     href={link}
-                    className={` transition capitalize`}
+                    className={`transition capitalize`}
                   >
                     <SheetClose asChild>
                       <SheetDescription>{label}</SheetDescription>
